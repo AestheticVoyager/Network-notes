@@ -379,7 +379,7 @@ before exchanging data, sender/receiver "handshake":
 + agree to establish connection (each knowing the other willing to establish connection)
 + agree on connection parameters
 
-## TCP: Closign a connection
+## TCP: Closing a connection
 + client, server each close their side of connection
   + send TCP segment with FIN bit = 1
 + respond to received FIN with ACK
